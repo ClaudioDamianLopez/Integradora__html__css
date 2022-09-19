@@ -263,6 +263,17 @@ section {
 
 /* section de galeria */
 
+.background__geleria {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-image: url(/IMG/img-dibu3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .titulo__galeria {
     text-align: center;
     padding: 2.5rem 0;
