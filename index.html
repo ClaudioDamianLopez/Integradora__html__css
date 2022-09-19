@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,45 +10,46 @@
     <link rel="stylesheet" href="/CSS/index.css">
     <title>Berserkers</title>
 </head>
+
 <body>
-    
+
     <header>
         <nav>
-        <div>
-            <img src="/IMG/Fitness-logo-template-design-on-transparent-background-PNG.png" class="logo" alt="logo Verserkers">
+            <div>
+                <img src="/IMG/Fitness-logo-template-design-on-transparent-background-PNG.png" class="logo"
+                    alt="logo Verserkers">
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar__btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <p class="text__logo">
+                Berserkers
+            </p>
+            <ul class="nav__menu">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="Registrate.html">Registrate</a></li>
+                <li><a href="logiate.html">logiate</a></li>
+            </ul>
+        </nav>
+        <div class="banner__text">
+            <h2>BOX & GYM</h2>
+            <h1>Se tu tambien un <span>Warrior</span></h1>
         </div>
-        <input type="checkbox" id="check">
-        <label for="check" class="bar__btn">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-        <p class="text__logo">
-            Berserkers
-        </p>
-        <ul class="nav__menu">
-            <li><a class="active" href="index.html">Inicio</a></li>
-            <li><a href="Registrate.html">Registrate</a></li>
-            <li><a href="logiate.html">logiate</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    <div class="banner__text">
-        <h2>BOX & GYM</h2>
-        <h1>Se tu tambien un <span>Warrior</span></h1>
-    </div>
-    <div class="buttons">
-        <a href="#galaria" class="button1">Ver ahora</a>
-        <a href="#" class="button2">Reservar ahora</a>
-    </div>
+        <div class="buttons">
+            <a href="#galaria" class="button1">Ver ahora</a>
+            <a href="#contacto" class="button2">Reservar ahora</a>
+        </div>
     </header>
     <section>
         <div class="container">
             <div class="card__vidrio">
                 <div class="content__top">
-                    <img  src="/IMG/laroca.jpg" alt="la roca personal trainer">
+                    <img src="/IMG/laroca.jpg" alt="la roca personal trainer">
                     <h2>La Roca</h2>
                     <h3>Personal trainer fisico culturismo</h3>
                     <p>Lorem ipsum dolor sit amet consectetur,
-                         adipisicing elit. Impedit magni </p>
+                        adipisicing elit. Impedit magni </p>
                 </div>
                 <div class="content__botton">
                     <div class="social__icons">
@@ -69,7 +71,7 @@
                     <h2>ARNOLD</h2>
                     <h3>Personal trainer Box</h3>
                     <p>Lorem ipsum dolor sit amet consectetur,
-                         adipisicing elit. Impedit magni </p>
+                        adipisicing elit. Impedit magni </p>
                 </div>
                 <div class="content__botton">
                     <div class="social__icons">
@@ -91,7 +93,7 @@
                     <h2>Virginia</h2>
                     <h3>Personal trainer Crossfit</h3>
                     <p>Lorem ipsum dolor sit amet consectetur,
-                         adipisicing elit. Impedit magni </p>
+                        adipisicing elit. Impedit magni </p>
                 </div>
                 <div class="content__botton">
                     <div class="social__icons">
@@ -151,18 +153,57 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="contacto" id="contacto">
         <div class="container__contacto">
             <h2>Contacta con nosotros</h2>
-        </div>
-        <div class="row100">
-            <div class="col">
-                <div class="inputBox">
-                    <input type="text" name="" required="requierd">
-                    <span class="text">Primer nombre</span>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="requierd">
+                        <span class="text">Primer nombre</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="requierd">
+                        <span class="text">Apellido</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="requierd">
+                        <span class="text">Email</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="requierd">
+                        <span class="text">Celular</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox textarea">
+                        <textarea required="required"></textarea>
+                        <span class="text">escriba su mensaje aqui</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <input type="submit" value="enviar">
                 </div>
             </div>
         </div>
     </section>
 </body>
+
 </html>
