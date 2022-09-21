@@ -554,7 +554,7 @@ footer {
   }
 
   footer {
-    height: 100vh;
+    height: 110vh;
   }
 
   .final__footer {
@@ -565,6 +565,10 @@ footer {
 
   .footer__social  {
     justify-content: center;
+  }
+
+  .background__geleria {
+    height: 800vh;
   }
 }
 
