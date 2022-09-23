@@ -123,6 +123,10 @@ h2 {
   font-weight: 900;
 }
 
+h3 a {
+  color: rgb(248, 8, 8);
+}
+
 form {
   background-color: rgba(255, 255, 255, .1);
   width: min(60rem, 100%);
